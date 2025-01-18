@@ -2,7 +2,8 @@
 clc
 clear
 clear all
-T = readtable('New Microsoft Excel Worksheet (4)', 'Sheet', '6X');
+%The first argument of readtable is the path to the excel file with raw beam data, the second and third argument specify the sheet name in the excel file to be analysed
+T = readtable('RAW DATA EXCEL SHEET', 'Sheet', '6X'); 
 A = table2array(T);
 
 %defining depth and dose columns for PDD
