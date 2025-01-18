@@ -1,5 +1,5 @@
 %PDD and beam profile analysis of 6 MV beam
-T = readtable('New Microsoft Excel Worksheet (4)', 'Sheet', '6X');
+T = readtable('path/to/excelfile', 'Sheet', '6X'); 
 A = table2array(T);
 
 %defining depth and dose columns for PDD
