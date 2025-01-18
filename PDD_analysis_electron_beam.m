@@ -3,7 +3,7 @@ clear all
 %interp1
 clc
 clear
-T = readtable('New Microsoft Excel Worksheet (4)', 'Sheet', '6 MeV');
+T = readtable('path/to/excelfile', 'Sheet', '6MeV'); 
 A = table2array(T);
 [a,b] = size(A);
 depth = A(:,1);
